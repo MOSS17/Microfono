@@ -8,7 +8,7 @@
         Title="MainWindow" Height="117" Width="375.5">
     <Grid>
         <Button x:Name="btnIniciar" Content="Iniciar" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="BtnIniciar_Click"/>
-        <Button x:Name="btnDetener" Content="Detener" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnDetener" Content="Detener" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="BtnDetener_Click"/>
         <TextBlock x:Name="lblHertz" HorizontalAlignment="Left" Margin="90,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="- Hz" FontSize="36" Width="260" TextAlignment="Right"/>
 
     </Grid>
